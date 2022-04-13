@@ -1,3 +1,6 @@
 git clone link_do_repositorio //usado para clonar um repositório
 git status //mostra o status do repositório local 
 git add nome_do_arquivo //adiciona as auterações no commit 
+git commit -m "commit inicial"//cria um lote de auterações para subir para o repositório
+git push origin main //sobe as auterações criadas para o repositório
+console.log //
