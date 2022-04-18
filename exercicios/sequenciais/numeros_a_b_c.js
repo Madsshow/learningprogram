@@ -6,5 +6,10 @@
 var int1 = parseInt(prompt("Digite um número inteiro."));
 var int2 = parseInt(prompt("Digite outro número inteiro."));
 var real = parseFloat(prompt("Digite um número real."));
-var produto = (int1 * 2 + 0,5 * int2);
-console.log("O produto do dobro de:", int1, "mais metade de", int2, "é", produto);
+var produto = (int1 * 2) * (int2 / 2);
+var soma = (3 * int1) + (real);
+var cubo = (Math.pow(real, 3));
+   
+    console.log("O produto é:", produto);
+    console.log("A soma é:", soma);
+    console.log("O cubo é:", cubo); 
